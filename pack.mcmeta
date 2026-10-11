@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "min_format": [88, 0],
+    "max_format": [999, 0],
+    "description": [
+      {
+        "text": "\"Totem Shield\" (totem_shield)"
+      },
+      "\n\n",
+      {
+        "translate": "jodek.version",
+        "fallback": "Version"
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "1.0.0",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "translate": "jodek.by",
+        "fallback": "by"
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
+  }
+}

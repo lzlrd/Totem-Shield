@@ -1,0 +1,25 @@
+{
+  "modrinth_id": "Pc0FsTTj",
+  "curseforge_id": "1740096",
+  "curseforge_mod_id": "1740095",
+  "curseforge_slug": "totem-shield",
+  "loaders": [
+    "datapack"
+  ],
+  "game_versions": [
+    ">=1.21.9"
+  ],
+  "version_type": "release",
+  "modrinth_environment": "server_only",
+  "dependencies": {
+    "resourcepack": [
+      "totem-shield-texture(required){modrinth:OhLJeiI8}{curseforge:1740099}"
+    ],
+    "datapack": [
+      "5555ff-lib(optional){modrinth:Lr1LVAwO}{curseforge:1495266}"
+    ],
+    "mod": [
+      "5555ff-lib(optional){modrinth:Lr1LVAwO}{curseforge:1495273}"
+    ]
+  }
+}

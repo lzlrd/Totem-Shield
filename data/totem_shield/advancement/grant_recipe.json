@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "recipes": {
+                "totem_shield:totem_shield": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "totem_shield:totem_shield"
+    ]
+  }
+}
