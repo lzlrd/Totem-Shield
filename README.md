@@ -7,6 +7,8 @@
 [![totem shield minecraft datapack codeberg issues](https://jodeks-datapacks.codeberg.page/assets/badges/CB_Issues.png)](https://codeberg.org/jodeks-datapacks/totem-shield/issues)&nbsp;&nbsp;
 [![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](https://jodeks-datapacks.codeberg.page/assets/badges/Kofi.png)](https://ko-fi.com/jodek)
 
+### REQUIRES RESOURCEPACK: https://modrinth.com/resourcepack/totem-shield-texture
+
 ## Adds a crafting recipe to put totems on shields
 
 ![minecrft totem shield crafting recipe](https://jodeks-datapacks.codeberg.page/assets/img/crafting_reicpes/totem_shield.png)
