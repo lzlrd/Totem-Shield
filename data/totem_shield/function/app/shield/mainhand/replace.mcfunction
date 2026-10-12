@@ -1,0 +1,1 @@
+$item replace entity @s weapon.mainhand with shield[item_name="$(item_name)",enchantments=$(enchantments),damage=$(damage)]

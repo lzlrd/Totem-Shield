@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:shield",
+                "components": {
+                  "minecraft:item_model": "totem_shield:totem_shield"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "totem_shield:app/check_mainhand"
+  }
+}

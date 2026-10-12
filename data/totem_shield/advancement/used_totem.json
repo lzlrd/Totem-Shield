@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"totem_shield.mainhand\"]}"
+          }
+        },
+        "item": {
+          "items": "minecraft:shield",
+          "components": {
+            "minecraft:item_model": "totem_shield:totem_shield"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "totem_shield:app/shield/mainhand/call_data"
+  }
+}

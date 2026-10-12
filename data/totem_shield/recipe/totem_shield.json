@@ -6,16 +6,38 @@
     "minecraft:totem_of_undying"
   ],
   "result": {
-    "id": "minecraft:totem_of_undying",
+    "id": "minecraft:shield",
     "components": {
       "minecraft:item_name": "Totem Shield",
-      "minecraft:max_damage": 336,
       "minecraft:rarity": "rare",
-      "minecraft:blocks_attacks": {
-        "block_sound": "minecraft:item.shield.block",
-        "disabled_sound": "minecraft:item.shield.break"
-      },
-      "minecraft:item_model": "totem_shield:totem_shield"
+      "minecraft:item_model": "totem_shield:totem_shield",
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+            "type": "minecraft:clear_all_effects"
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 900
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 1,
+                "duration": 100
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "amplifier": 0,
+                "duration": 800
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

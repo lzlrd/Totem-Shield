@@ -1,0 +1,1 @@
+$data modify storage totem_shield:root data."$(UUID)".shield set value $(totem_shield)

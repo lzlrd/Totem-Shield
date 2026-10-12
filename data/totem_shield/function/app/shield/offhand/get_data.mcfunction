@@ -1,0 +1,1 @@
+$function totem_shield:app/shield/offhand/replace with storage totem_shield:root data."$(UUID)".shield
