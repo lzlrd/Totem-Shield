@@ -9,9 +9,13 @@
 
 ## Adds a crafting recipe to put totems on shields
 
-![minecrft spawner crafting recipe](https://jodeks-datapacks.codeberg.page/assets/img/crafting_reicpes/totem_shield.png)
+![minecrft totem shield crafting recipe](https://jodeks-datapacks.codeberg.page/assets/img/crafting_reicpes/totem_shield.png)
 
 <sup>1 shield, 1 totem</sup>
+
+&nbsp;
+
+![totem shield](https://jodeks-datapacks.codeberg.page/assets/img/totem_shield_1.png)
 
 &nbsp;
 
