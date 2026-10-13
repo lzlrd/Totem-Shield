@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "shield_broken": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"totem_shield.mainhand\"]}"
+          }
+        },
+        "durability": {
+          "max": 1
+        },
+        "item": {
+          "items": "minecraft:shield",
+          "components": {
+            "minecraft:item_model": "totem_shield:totem_shield"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "totem_shield:app/totem/mainhand/replace"
+  }
+}
