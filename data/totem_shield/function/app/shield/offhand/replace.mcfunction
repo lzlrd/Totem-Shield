@@ -1,1 +1,1 @@
-$item replace entity @s weapon.offhand with shield[item_name="$(item_name)",enchantments=$(enchantments),damage=$(damage)]
+$item replace entity @s weapon.offhand with shield[item_name="$(item_name)",enchantments=$(enchantments),damage=$(damage),base_color="$(base_color)",banner_patterns=$(banner_patterns)]
