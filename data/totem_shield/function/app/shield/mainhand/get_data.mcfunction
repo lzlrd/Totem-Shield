@@ -1,1 +1,3 @@
+# A shield without a base colour has base_color "", which no item accepts, so it is rebuilt without one.
+$execute if data storage totem_shield:root data."$(UUID)".shield{base_color:""} run return run function totem_shield:app/shield/mainhand/replace_undyed with storage totem_shield:root data."$(UUID)".shield
 $function totem_shield:app/shield/mainhand/replace with storage totem_shield:root data."$(UUID)".shield

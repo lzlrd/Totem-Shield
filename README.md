@@ -1,3 +1,5 @@
+Fork of [Totem Shield](https://codeberg.org/jodeks-datapacks/Totem-Shield) 1.1.1 with one fix: upstream gives the shield back after its totem saves you by rebuilding it with `base_color=""` when the shield has no colour, which Minecraft rejects, so undyed shields vanished. [Releases](https://github.com/lzlrd/Totem-Shield/releases) here carry the fix.
+
 <div align="center">
   
 ![craft elytra minecraft datapack](https://assets.jodek.dev/title/totem_shield.png)
